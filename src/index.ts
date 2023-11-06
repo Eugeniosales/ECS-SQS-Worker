@@ -13,7 +13,7 @@ class Consumer {
   constructor() {
     this.queue = new AWS.SQS();
     this.queueUrl =
-      "https://sqs.us-east-2.amazonaws.com/805850029898/ecs-worker-queue";
+      "https://sqs.us-east-2.amazonaws.com/xxxxxxxxxxx/ecs-worker-queue";
   }
 
   async execute() {
